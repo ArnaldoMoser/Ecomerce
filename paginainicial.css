@@ -1,20 +1,22 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #000000;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    color: #000000;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #ffffff;
     text-align: center;
     margin-top: 50px;
 }
 
 h4 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 
 p {
@@ -23,18 +25,29 @@ p {
     margin-top: 20px;
 }
 
+.container {
+    text-align: center; 
+}
+
 a {
-    display: block;
+    display: inline-block;
     text-align: center;
-    margin-top: 20px;
     padding: 10px;
     background-color: #018d01;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    margin: 0 auto;
 }
+
+
 
 a:hover {
     background-color: #016d01;
 }
+
+img {
+    margin: 0 auto;
+    display: block;
+  }
